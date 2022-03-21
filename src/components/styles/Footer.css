@@ -1,0 +1,88 @@
+.logofoo{
+    object-fit: scale-down;
+    width: 100%;
+    height: 150px;
+}
+
+.cajaimg{
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+.titulosFoo{
+    text-align: center;
+    color: white;
+}
+.textFoo{
+    text-align: center;
+    font-family: Poiret One;
+    font-size: 20px;
+    color: white;
+}
+.crFoo{
+    position: relative; 
+    bottom: 0px;
+}
+.copyright {
+    font-size: 14px;
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    background: #7C604D;
+}
+.red {
+    color: #B1886C !important;
+}
+.redes{
+    width: 85px;
+    height: 85px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.redes:hover{
+    animation-name: bounce;
+    animation-duration: 0.7s;
+}
+footer {
+    background-color: #C7A78E;
+    padding-top: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+footer .footer-widget h3 {
+    margin-bottom: 20px;
+}
+
+
+
+footer .opening-time {
+    text-align: center;
+    padding-left: 0;
+}
+
+
+footer .opening-time li strong {
+    color: #7C604D;
+}
+footer .opening-time li {
+    font-family: Poiret One;
+    font-size: 25px;
+    font-weight: bold;
+}
+footer .opening-time li  i{
+    color: #fff;
+}
+footer .images-gellary ul {
+    padding-left: 20px;
+}
+footer .images-gellary ul li {
+    list-style: none;
+    float: left;
+    margin: 0 3% 2% 0;
+    width: 31%;
+    position: relative;
+}
+footer .images-gellary ul li:nth-child(3n) {
+    margin: 0 0 1%;
+}

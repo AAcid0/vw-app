@@ -1,0 +1,103 @@
+.banner-img {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('https://i.ibb.co/dfg6TwL/bg.jpg');
+    height: 1000px;
+    width: 100%;
+	  background-position: center;
+	  background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 100% 0%, 100% 78%, 0 100%);
+    justify-content: center;
+    
+}
+
+.animate__fadeIn{
+  animation-duration: 10s;
+}
+
+#videoHeroBanner{
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+  position: relative;
+  margin: auto; 
+  display: block;
+  z-index: -1;
+}
+
+.circle-draw{
+  background: lightblue;
+  border-radius: 50%;
+  width: 500px;
+  height: 250px;
+  border-radius: 0 150px 150px 0;
+    
+}
+.logo {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top:15%;
+  left:31%;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 1));
+  /*filter: drop-shadow(0 0 0.75rem #d04d46);*/
+}
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+.banner-txt p {
+  font-family: 'Poiret One', cursive;
+  font-size:400%;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 20%;
+  left: 5%;
+}
+
+.tab {
+  display: inline-block;
+  margin-left: 250px;
+}
+
+.scrolldown {
+  height: 100vh;
+  width: 100%;  
+  position: absolute;
+  top: 5%;
+  filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 1));
+}
+
+.scrolldown::before {
+  animation: bounce 1s ease infinite;
+  bottom: 2rem;
+  color: #fff;
+  content: '╲╱';
+  font-size: 2rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 6rem;
+}
+
+@keyframes bounce {
+  50% {
+    transform: translateY(-50%);
+  }
+}
+
+@media screen and (max-width: 576px){
+  .logo{
+    width: 250px;
+    left: 22%;
+    top: 25%;
+  }
+  .scrolldown{
+    top:0%;
+  }
+}
+

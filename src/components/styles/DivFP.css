@@ -1,0 +1,47 @@
+
+div h1 {
+    font-family: Concert One;
+    font-size: 500%;
+    text-align: center;
+    color: #C7A78E;
+    /*text-shadow : 3px 5px 10px rgba(0, 0, 0, 0.5); /*x,y,blur,color*/
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital@1&display=swap');
+.textoDiv {
+    font-size: 300%;
+    font-family: Poiret One;
+    text-align: center;
+    position: relative;
+}
+
+#containerfluid{
+}
+.animate__bounceInRight{
+    animation-duration: 3s;
+}
+#elloving{
+    width: 600px;
+    height: 400px;
+}
+/* #containerfluid{
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url('../../images/wafflesBG.png');
+    background-size: cover;
+} */
+/* #eldividor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: solid 1px black;
+    
+} */
+
+@media screen and (max-width: 600px){
+    #elloving{
+        width: 300px;
+        height: 200px;
+    }
+    .textoDiv {
+        font-size: 200%;
+    }
+}

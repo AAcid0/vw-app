@@ -1,0 +1,19 @@
+
+.cajaCarrusel {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("https://i.ibb.co/TRfNvzL/wfFruta1.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.lg-text {
+    text-shadow : 5px 5px 10px rgba(0, 0, 0, 1.5); /*x,y,blur,color*/
+    color: #fff;
+    font-family: Urbanist;
+    /*-webkit-text-stroke: 2px white;*/
+}
+
+@media screen and (max-width: 600px) {
+    .lg-text {
+        font-size: 30px !important; 
+    }
+}

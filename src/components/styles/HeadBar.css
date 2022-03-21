@@ -1,0 +1,38 @@
+
+.navbar{
+    background-color: #C7A78E;
+    /* overflow: hidden; */
+}
+#logoNav{
+    width: 300px;
+    height: 50px;
+    
+}
+.nav-link {
+    font-family: Urbanist;
+    margin-right: 15px;
+    border-radius: 20%;
+}
+
+.nav-link:hover {
+    background-color: #E0C4BD;
+    color:white;
+    animation-name: bounce;
+    animation-duration: 0.7s;
+    font-weight: bold;
+}
+.navbar-toggler-icon{
+    color: white;
+}
+/**/
+
+@media screen and (max-width:992px) {
+    .navbar-toggler{
+        border: solid 1px white !important;
+    }
+    .navbar-toggler-icon::after{
+        color: white;
+        font-size: 30px;
+        content: "\021D3";
+    }
+}

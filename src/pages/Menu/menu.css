@@ -1,0 +1,63 @@
+#jumbotronMenu{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://i.ibb.co/7YXzx4t/jumbotron-Menu.png");
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    
+}
+
+#containerMenu  h3{
+    font-size: 125px;
+    text-align: center;
+    color: white;
+    
+}
+
+#containerMenu > p{
+    font-size: 40px;
+    
+}
+#svgLogoBanner{
+    width: 300px;
+    height: 200px;
+}
+#platosContainer{
+    flex-direction: row;
+}
+.navBarMenuPage{
+    width: 38%;
+    padding-left: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    overflow: hidden;
+}
+
+#navbar-MenuPage li > a {
+    font-family: Urbanist;
+    font-size: 17px;
+  }
+#navbar-MenuPage li:hover {
+    background-color: #FCE2D8;
+    color: #C7A78E;
+    animation-name: bounce;
+    animation-duration: 0.7s;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width:576px) {
+    #containerMenu > h3{
+        font-size: 80px;
+    }
+    #jumbotronMenu{
+        height: 400px;
+    }
+    #platosContainer{
+        flex-direction: column;
+    }
+  }
+@media screen and (max-width:992px) {
+    #jumbotronMenu{
+        height: 500px;
+    }
+}

@@ -1,0 +1,52 @@
+#produc-carta{
+    position: relative;
+    width: 360px;
+    height: 230px;
+}
+
+#produc-carta > img{
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+#capa{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+#produc-carta:hover img {
+    opacity: 0.3;
+}
+  
+#produc-carta:hover #capa {
+    opacity: 1;
+}
+
+#textoP{
+    background-color: #C7A78E;
+    color: white;
+    font-size: 20px;
+    padding: 16px 32px;
+    font-family: 'Urbanist', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+#titleSwa{
+    font-family: 'Urbanist', sans-serif;
+    font-size: 45px;
+}
+#ingrSwa{
+    font-family: Neuton;
+    font-size: 30px;
+}
+#priceSwa{
+    font-size: 45px;
+}

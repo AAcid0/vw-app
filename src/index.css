@@ -1,0 +1,42 @@
+* { 
+  padding:0;
+  margin:0;
+    /* background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;    */
+}
+body {
+  
+  /* overflow-x: hidden; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media screen and (max-width: 600px){
+  .mainText{
+    font-size: 50px; 
+  }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+.mainText{
+  font-family: 'Urbanist', sans-serif;
+  color: #C7A78E;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kristi&display=swap');
+.altText{
+  font-family: 'Kristi', cursive;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Urbanist:wght@700&display=swap');
+.sec-Text{
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+}

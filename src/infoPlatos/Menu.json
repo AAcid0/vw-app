@@ -1,0 +1,133 @@
+[{ 
+    "tipo": "waffle",
+    "titulo": "Waffles",
+    "imgurl":"https://i.ibb.co/DK0sP6T/Explosioncolores.png",
+    "nombre": "Explosión De Colores",
+    "ingredientes": "Delicioso waffle con crema chantilly, fresas, MyM, Helado y salsa de fresa.",
+    "precio": "$15"
+},{
+    "tipo": "waffle",
+    "titulo": "Waffles",
+    "imgurl":"https://i.ibb.co/GTqsM32/Mixfrutas.png",
+    "nombre": "Mix De Frutas",
+    "ingredientes": "Delicioso waffle con crema chantilly, fresas, banano, mango, helado de fresa y salsa de mora.",
+    "precio": "$13"
+},{
+    "tipo": "waffle",
+    "titulo": "Waffles",
+    "imgurl":"https://i.ibb.co/1fmR3s9/Explosionmani.png",
+    "nombre": "Explosión de maní",
+    "ingredientes": "Delicioso waffle con crema de maní, banano, mani triturado, helado de vainilla y salsa de chocolate.",
+    "precio": "$15"
+},{
+    "tipo": "waffle",
+    "titulo": "Waffles",
+    "imgurl":"https://i.ibb.co/TkZtRyc/Tradicional.png",
+    "nombre": "Tradicional",
+    "ingredientes": "Delicioso waffle con helado y salsa de chocolate o mora.",
+    "precio": "$8"
+},
+{
+    "tipo": "waffle",
+    "titulo": "Waffles",
+    "imgurl":"https://i.ibb.co/yqv04XY/chocolatoso.png",
+    "nombre": "Chocolatoso",
+    "ingredientes": "Delicioso waffle con crema de avellanas y cacao, banano, fresa, helado de vainilla, chips y salsa de chocolate.",
+    "precio": "$13"
+},
+{
+    "tipo": "adicion",
+    "titulo": "Adiciones",
+    "imgurl": "https://i.ibb.co/sQdwYL3/cremas2.png",
+    "nombre": "Cremas",
+    "ingredientes": "Deliciosa crema de avellanas o chantilly.",
+    "precio": "$3"
+},
+{
+    "tipo": "adicion",
+    "titulo": "Adiciones",
+    "imgurl": "https://i.ibb.co/k3PHZWP/frutas.png",
+    "nombre": "Frutas",
+    "ingredientes": "Frescos y deliciosos trozos de fresa, banano, mango, mora o cereza.",
+    "precio": "$2K - $3K"
+},
+{
+    "tipo": "adicion",
+    "titulo": "Adiciones",
+    "imgurl": "https://static7.depositphotos.com/1118354/677/i/600/depositphotos_6778393-stock-photo-frozen-yogurt-topping.jpg",
+    "nombre": "Toppings",
+    "ingredientes": "Complementa tu waffle con deliciosos trozos de chocolate M&M o Maní",
+    "precio": "$3K - $2K"
+},
+{
+    "tipo": "adicion",
+    "titulo": "Adiciones",
+    "imgurl": "https://i.ibb.co/Qv5j5rK/Helado.png",
+    "nombre": "Helado",
+    "ingredientes": "1 bola de delicioso y cremoso helado.",
+    "precio": "$2K"
+},
+{
+    "tipo": "adicion",
+    "titulo": "Adiciones",
+    "imgurl": "https://tastesbetterfromscratch.com/wp-content/uploads/2015/09/Caramel-Sauce-10.jpg",
+    "nombre": "Salsas Dulces",
+    "ingredientes": "Rico arequipe o deliciosa salsa de mora o chocolate",
+    "precio": "$2K - $1K"
+},
+{
+    "tipo": "desa_pos",
+    "titulo": "Desayunos Y Postres",
+    "imgurl": "https://i.ibb.co/7bsr27q/desayuno1.png",
+    "nombre": "Desayuno Sorpresa",
+    "ingredientes": "Incluye: bebidas fría y caliente, huevos rancheros (Salchicha, mozarella y jamón), 2 mini waffles, 2 porciones de fruta, decoración",
+    "precio": "$75K"
+},
+{
+    "tipo": "desa_pos",
+    "titulo": "Desayunos Y Postres",
+    "imgurl": "https://i.ibb.co/4PbtCKv/caja-Tropical.png",
+    "nombre": "Caja Tropical",
+    "ingredientes": "Refrescante caja que incluye 3 mini waffles, uvas chilenas, fresas, manguitos y salsa de mora, chocolate o arequipe",
+    "precio": "$25K"
+},
+{
+    "tipo": "desa_pos",
+    "titulo": "Desayunos Y Postres",
+    "imgurl": "https://i.ibb.co/pz0ybTM/vaso-Vintage.png",
+    "nombre": "Vaso Vintage",
+    "ingredientes": "Deliciosa copa con crema chantilly, frutas, queso mozarella y helado",
+    "precio": "$10K"
+},
+{
+    "tipo": "decora",
+    "titulo": "Decoración",
+    "imgurl": "",
+    "nombre": "Globo Pequeño",
+    "ingredientes": "Globito R12 inflado con aire",
+    "precio": "$2K"
+},
+{
+    "tipo": "decora",
+    "titulo": "Decoración",
+    "imgurl": "",
+    "nombre": "Moño",
+    "ingredientes": "Hermoso moño en cinta de colores hecho a mano para decorar",
+    "precio": "$3K"
+},
+{
+    "tipo": "decora",
+    "titulo": "Decoración",
+    "imgurl": "",
+    "nombre": "Globo En Helio",
+    "ingredientes": "Globito R12 inflado con helio",
+    "precio": "$6K"
+},
+{
+    "tipo": "decora",
+    "titulo": "Decoración",
+    "imgurl": "",
+    "nombre": "Tarjetitas Con Motivo",
+    "ingredientes": "Hermosas tarjetitas para diferentes motivos",
+    "precio": "$.5K  ($500 c/u)"
+}]
