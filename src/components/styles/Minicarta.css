@@ -89,6 +89,12 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    #navBarMiniCarta li > button{
+        font-size: 18px;
+    }
+}
+
 @media screen and (max-width: 992px){
     #navBarMiniCarta li > button{
         margin-top: 30px;

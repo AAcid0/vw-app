@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import React, { memo, Fragment, useState } from 'react';
 import CartaItem from './CartaItem.jsx';
 import './styles/Minicarta.css'
 import Menu from '../infoPlatos/Menu.json'
@@ -17,47 +17,49 @@ const Minicarta = () => {
             return item.tipo == plato
         })
          return(
-            <div className="primerTab">
-                <p className='altText tipo-plato'>- {listaElem[0].titulo} -</p>
-                <div className='row'>
-                {listaElem.map(item => <CartaItem key={uuidv4()} imgsrc={item.imgurl} title={item.nombre} price={item.precio} dscr={item.ingredientes}/>)}
-
+             <Fragment>
+                <div className="primerTab">
+                    <p className='altText tipo-plato'>- {listaElem[0].titulo} -</p>
+                    <div className='row'>
+                    {listaElem.map(item => <CartaItem key={uuidv4()} imgsrc={item.imgurl} title={item.nombre} price={item.precio} dscr={item.ingredientes}/>)}
+                    </div>
                 </div>
-            </div>
+             </Fragment>
         )
     }
 
     return ( 
-        <div className="hero-menu wrapper">
-            <div className='container'>
-                <p className='mainText display-1 text-center py-2'>UN POCO DE LO NUESTRO</p>
-                <p id='flechita' className="bi bi-arrow-down-circle  text-center"></p>
-            </div>
-            <div className='container d-flex justify-content-center'>
-                <ul id='navBarMiniCarta' className="">
-                    <li className="mx-4">
-                        <button className="p-2 border border-dark" onClick={e => handleCLick(e, "waffle")}>Waffles</button>
-                    </li>
-                    <li className="mx-4">
-                        <button className="p-2 border border-dark" onClick={e => handleCLick(e, "adicion")}>Adiciones</button>
-                    </li>
-                    <li className="mx-4">
-                        <button className="p-2 border border-dark text-nowrap" onClick={e => handleCLick(e, "desa_pos")}>Desayunos Y Postres</button>
-                    </li>
-                    <li className="mx-4">
-                        <button className="p-2 border border-dark" onClick={e => handleCLick(e, "decora")}>Decoraciones</button>
-                    </li>
-                </ul>
-            </div>
-                
-            <div className="tabs-container">
-                <div className="tab1">
-                    {
-                        tipoPlato ? renderiza(tipoPlato) : (<p className="textoDiv">Échale un vistazo a nuestro menú</p>)
-                    }
+        <Fragment>
+            <div className="hero-menu wrapper">
+                <div className='container'>
+                    <p className='mainText display-1 text-center py-2'>UN POCO DE LO NUESTRO</p>
+                    <p id='flechita' className="bi bi-arrow-down-circle  text-center"></p>
+                </div>
+                <div className='container d-flex justify-content-center'>
+                    <ul id='navBarMiniCarta' className="">
+                        <li className="mx-4">
+                            <button className="p-2 border border-dark" onClick={e => handleCLick(e, "waffle")}>Waffles</button>
+                        </li>
+                        <li className="mx-4">
+                            <button className="p-2 border border-dark" onClick={e => handleCLick(e, "adicion")}>Adiciones</button>
+                        </li>
+                        <li className="mx-4">
+                            <button className="p-2 border border-dark text-nowrap" onClick={e => handleCLick(e, "desa_pos")}>Desayunos Y Postres</button>
+                        </li>
+                        <li className="mx-4">
+                            <button className="p-2 border border-dark" onClick={e => handleCLick(e, "decora")}>Decoraciones</button>
+                        </li>
+                    </ul>
+                </div>
+                <div className="tabs-container">
+                    <div className="tab1">
+                        {
+                            tipoPlato ? renderiza(tipoPlato) : (<p className="textoDiv">Échale un vistazo a nuestro menú</p>)
+                        }
+                    </div>
                 </div>
             </div>
-        </div>
+        </Fragment>
      );
 }
  

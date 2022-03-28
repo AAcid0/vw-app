@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { memo, Fragment } from 'react';
 import './styles/Footer.css';
 import logo from '../images/svg/logoClaro.svg';
 
@@ -6,12 +6,13 @@ const Footer = () => {
   
   
   return ( 
+    <Fragment>
+
     <footer className="footer">
           <div className="container">
             <div className="row">
 
               <div className="col-sm-4">
-                <div className="container">
                   <h3 className="titulosFoo mainText">Sobre Nosotros</h3>
                   <div className="footer-widget-content">
                     <div className="cajaimg">
@@ -25,7 +26,6 @@ const Footer = () => {
                       </strong>
                     </p>
                   </div>
-                </div>
               </div>
               
               <div className="col-sm-4">
@@ -64,7 +64,8 @@ const Footer = () => {
               </div>
             </div>
         </footer>
+    </Fragment>
    );
 }
  
-export default Footer;
+export default memo(Footer);

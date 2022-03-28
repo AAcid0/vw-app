@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { Fragment, useEffect } from 'react';
 import HeadBar from './components/HeadBar.jsx';
 import HeroBanner from './components/HeroBanner.jsx';
 import CarruselCards from './components/CarruselCards.jsx';
@@ -14,14 +14,11 @@ import {
 } from "react-router-dom";
 
 //import './App.css';
-
 function App() {
+
   return (
       <div className="App">
         <HeadBar />
-        
-        
-          
             <Routes>
             <Route path="/" element={
               <Fragment>
@@ -37,7 +34,6 @@ function App() {
               <Route path="nuestromenu" element={<PagMenu />} />
               <Route path="nosotros" element={<Nosotros />}/>
             </Routes>
-          
         <div className='row g-0'>
         <Footer />  
         </div>

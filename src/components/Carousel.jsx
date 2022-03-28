@@ -1,4 +1,4 @@
-import React, {Fragment, useEffect} from 'react';
+import React, { memo, Fragment } from 'react';
 import './styles/Carousel.css';
 import img1 from '../images/products/cajatropical2.jpeg';
 import img3 from '../images/pd2.jpg';
@@ -12,6 +12,8 @@ import img8 from '../images/products/cajaDecorada.jpg';
 const Carousel = () => {
 
     return (
+      <Fragment>
+
       <div className="image-mosaic">
       <div
         className="card card-wide"
@@ -44,10 +46,11 @@ const Carousel = () => {
       <div
         className="card"
         style={{"backgroundImage": "url("+img8+")"}}
-      ></div>
+        ></div>
     </div>
+        </Fragment>
       
   )
   }
  
-export default Carousel;
+export default memo(Carousel);

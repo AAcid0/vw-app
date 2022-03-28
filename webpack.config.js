@@ -1,12 +1,12 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
+
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, 'dist'),
-    filename: "bundle.js",
-    assetModuleFilename: 'images/[hash][ext][query]'
+    path: path.join(__dirname, "/dist"),
+    filename: "bundle.js"
   },    
   module: {
     rules: [
@@ -45,10 +45,11 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, "src", "index.html"),
+      template: path.join(__dirname, "src", "index.html"),
+      favicon: "./src/favicon/favicon-32x32.png",
       filename: "index.html",
       inject: "body"
-    }),
+    })
   ]
   
 

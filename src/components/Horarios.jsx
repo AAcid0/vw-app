@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import vidfondo from '../images/vids/waffles-reducidos.mp4';
+import React, { memo, Fragment, useEffect } from 'react';
+import vidfondo from './waffles-reducidos.mp4';
 import Swiper from 'swiper/bundle';
 // import styles bundle
 import 'swiper/css/bundle';
@@ -27,12 +27,11 @@ const Horarios = () => {
                     slidesPerView: 2,
                     spaceBetween: 100
                 },
-
-                640:{
-                    slidesPerView: 2,
+                720:{
+                    slidesPerView: 3,
                     spaceBetween: 100
                 },
-                720:{
+                992:{
                     slidesPerView: 4,
                     spaceBetween: 100
                 }
@@ -44,54 +43,53 @@ const Horarios = () => {
         })
     })
     return ( 
-        <div  id="video-container" className="jumbotron">
-               
+        <Fragment>
+            <div  id="video-container" className="jumbotron">
                 <video playsInline="playsinline" autoPlay="autoplay" muted="muted" loop="loop">
                     <source src={vidfondo} type="video/mp4"/>
                 </video>
                 <div className="video-container-text">
                     <h3 className="mainText">ORDENA TU WAFFLE A DOMICILIO</h3>
                     <p>¿Qué esperas para sorprender a aquellos que más amas?</p>
-                    
                 </div>
-
                 <div className="swiper1 pb-3 px-4" dir="rtl">
-                <div className="swiper-wrapper my-3">
-                    <div className="swiper-slide d-flex justify-content-center ">
-                        <Card1 imgsrc={img1} remWidth="10rem"/>
-                    </div>
-                    <div className="swiper-slide d-flex justify-content-center">
-                        <Card1 imgsrc={img2} remWidth="10rem"/>
-                    </div>
-                    <div className="swiper-slide d-flex justify-content-center">
-                        <Card1 imgsrc={img3} remWidth="10rem"/>
-                    </div>
-                    <div className="swiper-slide d-flex justify-content-center">
-                        <Card1 imgsrc={img4} remWidth="10rem"/>
-                    </div>
-                    <div className="swiper-slide d-flex justify-content-center">
-                        <Card1 imgsrc={img5} remWidth="10rem"/>
-                    </div>
-                    <div className="swiper-slide d-flex justify-content-center">
-                        <Card1 imgsrc={img6} remWidth="10rem"/>
-                    </div>
-                    <div className="swiper-slide d-flex justify-content-center">
-                        <Card1 imgsrc={img7} remWidth="10rem"/>
-                    </div>
-                    <div className="swiper-slide d-flex justify-content-center">
-                        <Card1 imgsrc={img8} remWidth="10rem"/>
-                    </div>
-                    <div className="swiper-slide d-flex justify-content-center">
-                        <Card1 imgsrc={img9} remWidth="10rem"/>
-                    </div>
-                    <div className="swiper-slide d-flex justify-content-center">
-                        <Card1 imgsrc={img10} remWidth="10rem"/>
+                    <div className="swiper-wrapper my-3">
+                        <div className="swiper-slide d-flex justify-content-center ">
+                            <Card1 imgsrc={img1} remWidth="10rem"/>
+                        </div>
+                        <div className="swiper-slide d-flex justify-content-center">
+                            <Card1 imgsrc={img2} remWidth="10rem"/>
+                        </div>
+                        <div className="swiper-slide d-flex justify-content-center">
+                            <Card1 imgsrc={img3} remWidth="10rem"/>
+                        </div>
+                        <div className="swiper-slide d-flex justify-content-center">
+                            <Card1 imgsrc={img4} remWidth="10rem"/>
+                        </div>
+                        <div className="swiper-slide d-flex justify-content-center">
+                            <Card1 imgsrc={img5} remWidth="10rem"/>
+                        </div>
+                        <div className="swiper-slide d-flex justify-content-center">
+                            <Card1 imgsrc={img6} remWidth="10rem"/>
+                        </div>
+                        <div className="swiper-slide d-flex justify-content-center">
+                            <Card1 imgsrc={img7} remWidth="10rem"/>
+                        </div>
+                        <div className="swiper-slide d-flex justify-content-center">
+                            <Card1 imgsrc={img8} remWidth="10rem"/>
+                        </div>
+                        <div className="swiper-slide d-flex justify-content-center">
+                            <Card1 imgsrc={img9} remWidth="10rem"/>
+                        </div>
+                        <div className="swiper-slide d-flex justify-content-center">
+                            <Card1 imgsrc={img10} remWidth="10rem"/>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
+            </div>
+        </Fragment>
      );
 }
  
-export default Horarios;
+export default memo(Horarios);

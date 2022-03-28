@@ -102,32 +102,24 @@
 {
     "tipo": "decora",
     "titulo": "Decoración",
-    "imgurl": "",
-    "nombre": "Globo Pequeño",
-    "ingredientes": "Globito R12 inflado con aire",
+    "imgurl": "https://i.ibb.co/SKfZt3D/globo.jpg",
+    "nombre": "Globo Pequeño Metalizado",
+    "ingredientes": "Globito metalizado de color según disponibilidad.",
     "precio": "$2K"
 },
 {
     "tipo": "decora",
     "titulo": "Decoración",
-    "imgurl": "",
+    "imgurl": "https://i.ibb.co/sgcg4hY/mo-o.jpg",
     "nombre": "Moño",
     "ingredientes": "Hermoso moño en cinta de colores hecho a mano para decorar",
     "precio": "$3K"
 },
 {
     "tipo": "decora",
-    "titulo": "Decoración",
-    "imgurl": "",
-    "nombre": "Globo En Helio",
-    "ingredientes": "Globito R12 inflado con helio",
-    "precio": "$6K"
-},
-{
-    "tipo": "decora",
-    "titulo": "Decoración",
-    "imgurl": "",
-    "nombre": "Tarjetitas Con Motivo",
-    "ingredientes": "Hermosas tarjetitas para diferentes motivos",
-    "precio": "$.5K  ($500 c/u)"
+    "titulo": "Mensaje",
+    "imgurl": "https://i.ibb.co/kB84kvx/mensaje.jpg",
+    "nombre": "Mensajito personalizado para cada ocasión",
+    "ingredientes": "Expresa tu amor con diferente mensajitos llenos de amor.",
+    "precio": "Gratis"
 }]

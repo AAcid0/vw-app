@@ -65,7 +65,27 @@
     margin-left: 1px;
 }
 
-@media screen and (max-width:576px) {
+
+
+@media screen and (max-width: 768px){
+    .video-container-text h3{
+        font-size: 40px;
+    }
+    .video-container-text p{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .video-container-text h3{
+        font-size: 50px;
+    }
+    .video-container-text p{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 576px) {
     .video-container-text h3{
         font-size: 25px;
     }

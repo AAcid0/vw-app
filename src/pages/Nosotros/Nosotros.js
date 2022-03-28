@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import logo from '../../images/svg/Recurso.svg';
 import pareja from '../../images/svg/chicosFelices.svg'
 import chico from '../../images/svg/pareja2.svg'
+import loving from '../../images/svg/loving.svg'
 import './Nosotros.css'
 import Carousel from '../../components/Carousel.jsx';
 
@@ -40,7 +41,7 @@ const Nosotros = () => {
                 <div className='col'>
                     <p className='mainText text-center display-2'>Nuestra Misión</p>
                     <p className='sec-Text text-center display-6'>
-                    Producir y comercializar gran variedad de waffles, de este modo tener distintas opciones para nuestro público. Destacarnos por nuestra calidad en productos y servicios.
+                    Satisfacer las necesidades de nuestros clientes con waffles y productos elaborados artesanalmente. Brindar siempre alta calidad en productos y servicios.
                     </p>
                 </div>
                 <div className='col'>
@@ -52,10 +53,32 @@ const Nosotros = () => {
                     <div className='container'>
                     <p className='mainText text-center display-2'>Nuestra Visión</p>
                     <p className='sec-Text text-center display-6'>
-                    Producir y comercializar gran variedad de waffles, de este modo tener distintas opciones para nuestro público. Destacarnos por nuestra calidad en productos y servicios.
+                    Endulzar el cuerpo y el alma. Crear momentos de amor por medio de nuestros productos y servicios, logrando un gran impacto en la sociedad.
                     </p>
                     </div>
                     
+                </div>
+            </div>
+            <div className='row g-0 pt-1' id="los-valores">
+                <div className='col'>
+                <img id='svgLoving' className='mx-auto d-block ' src={loving} viewBox='0 0 500 500'/>
+                </div>
+                <div className='col'>
+                    <div className='container'>
+                        <p className='mainText text-center display-2'>Nuestros valores</p>
+                        <p className='sec-Text text-center display-6'> 
+                            <ul id="valores">
+                                <li>Amor</li>
+                                <li>Alegría</li>
+                                <li>Responsabilidad</li>
+                                <li>Servicio</li>
+                                <li>Empatía</li>
+                                <li>Esfuerzo</li>
+                                <li>Honestidad</li>
+                                <li>Integridad</li>
+                            </ul>
+                        </p>
+                    </div>
                 </div>
             </div>
         </Fragment>

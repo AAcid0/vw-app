@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React, { memo, Fragment } from 'react';
 import "./styles/HeroBanner.css"
 import logo from '../images/svg/LogoDarksvg.svg';
 
@@ -15,4 +15,4 @@ const HeroBanner = () => {
      );
 }
  
-export default HeroBanner;
+export default memo(HeroBanner);

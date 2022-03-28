@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { memo, useEffect, Fragment } from 'react';
 // import Swiper bundle with all modules installed
 import Swiper from 'swiper/bundle';
 // import styles bundle
@@ -47,6 +47,7 @@ const CarruselCards = () => {
         })
     })
     return ( 
+        <Fragment>
         <div className="jumbotron jumbotron-fluid cajaCarrusel">
         <p className="lg-text display-1 text-center pt-2" style={{"fontSize" : "60px"}}>ÚNETE YA A LA FAMILIA<br/><i>#WAFFLELOVERS</i></p>
             <div className="swiper pb-3 px-4">
@@ -87,8 +88,9 @@ const CarruselCards = () => {
                 </div>
             </div>
 
-   </div>
+            </div>
+        </Fragment>
      );
 }
  
-export default CarruselCards;
+export default memo(CarruselCards);

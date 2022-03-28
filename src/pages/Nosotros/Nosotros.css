@@ -11,6 +11,10 @@
     width: auto;
     height: auto;
 }
+#svgLoving{
+    width: auto;
+    height: auto;
+}
 #jumbotronNosotros{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("https://i.ibb.co/fQw8kC7/fondo-Jumbotron-Nosotros.jpg");
     background-size: cover;
@@ -21,6 +25,9 @@
     text-align: center;
     color: white;
 }
+#valores {
+    list-style-type: none;
+}
 @media screen and (max-width:576px) {
     #svgLogoNos + h3{
         font-size: 80px;
@@ -29,6 +36,9 @@
         display: block;
     }
     #laMision{
+        display: block;
+    }
+    #los-valores{
         display: block;
     }
 }
